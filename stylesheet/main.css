@@ -1,0 +1,521 @@
+/*!
+ *  author: Luca Provenzano (lucaeprov@gmail.com)
+ *  Bica - Servicios integrales {GEMA}
+ */
+
+ @import url(fonts.css);
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    outline: none
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    animation-duration: 3s;
+}
+
+/*      NAVBAR    */
+
+#logotype{
+    margin-top: -5px
+}
+
+.no-border{
+    border:none!important;
+    background: rgba(255,255,255,.8)!important;
+    transition:all 0.2s ease-out 0s;
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+    height: 15%;
+    background-color: transparent;
+    border-bottom: none
+}
+
+.collapse.navbar-collapse.navbar-ex1-collapse{
+    position: relative;
+    top:18px;
+}
+
+.nav.navbar-nav.pull-right>li>a{
+    color:#FFF;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.nav.navbar-nav.pull-right>li>a:hover{
+    border-bottom: 1.4px dashed #FFF;
+    padding-bottom: 0.5px;
+    transition:all 0.2s ease-out 0s;
+}
+
+
+.intro-section {
+    height: auto;
+    padding: 150px 0; 
+    text-align: left;
+    background-image: url(../img/bg2.jpg); 
+    /* 
+
+    QUOTE: Utilice otras imagenes porque la calidad era un tanto mala y se veía pésimo.
+    De todas formas se puede cambiar :); 
+
+    */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/*      INTRO       */
+
+.intro-section h1{
+    font-size:7em;
+    font-weight: 900;
+    text-transform: uppercase;
+    width:50%;
+    padding-top:10%;
+    color: #FFF;
+    line-height: 90px
+}
+
+.intro-section h2{
+    font-size:3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF
+}
+
+.list-intro{
+    list-style: none;
+    padding-left: 0
+}
+
+.list-intro>li{
+    font-size:2em;
+    font-weight: 600;
+    color:#FFF;
+}
+
+.fa.fa-plus{
+    font-size:0.5em;
+}
+
+.intro-section a.btn.btn-default.page-scroll{
+    background:rgba(85,86,87,.8);
+    border:none;
+    font-size:2em;
+    font-weight: 600;
+    color:#FFF;
+    padding: 13px;
+   margin-top:5%;
+
+}
+
+.backside-img{
+    margin-top: 5%
+}
+
+.newnav{
+    color:#666666!important;
+    font-size: 1.1em;
+    font-weight: 600!important;
+}
+
+.navbar-brand{
+    width:100%!important;
+}
+
+.newnav:hover{
+    color:#007593!important;
+    border-bottom: 1.4px dashed #007593!important;
+    padding-bottom: 0.5px;
+    transition:all 0.2s ease-out 0s;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    border-bottom: 1.4px dashed #007593!important;
+    padding-bottom: 0.5px;
+    transition:all 0.2s ease-out 0s;
+    background: none;
+    color:#007593!important;
+}
+
+/*      BICA       */
+
+.bica-section {
+    height: auto;
+    padding-top: 150px;
+    text-align: left;
+    background: #ffffff;
+    background-attachment: fixed;
+}
+
+#left-block>h2{
+    color:#007593;
+    font-weight: 700
+}
+
+#left-block>h1{
+    color:#666666!important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 9%
+}
+
+#left-block>p{
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color:#676767;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#right-block{
+    padding: 16% 0
+}
+
+#services-list{
+    vertical-align: middle;
+    border-top: 18px solid #f5f5f5;
+    border-bottom: 18px solid #f5f5f5;
+    padding: 7.5%;
+    margin-top: 3.8%
+}
+
+#services-list li{
+    color:#007593;
+    font-size:1.4em; 
+    line-height: 40px
+}
+
+/*      VALORES       */
+
+.values-section {
+    height: auto;
+    padding: 150px 0;
+    text-align: center;
+    background-image: url(../img/values.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.values-section h1{
+    color:#FFF;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 3.4em
+}
+
+.values-section h2{
+    color:#FFF;
+    font-weight:600;
+}
+
+.values-section p, .description-business{
+    color:#FFF;
+    font-weight:300;
+    font-family: 'Open Sans', sans-serif
+}
+
+/*      SERVICIOS       */
+
+.service-section {
+    height: auto;
+    padding: 150px 0;
+    text-align: left;
+    background: #fff;
+}
+
+.general-titles>h2{
+    color:#007593;
+    font-weight: 700
+}
+
+.general-titles>h1{
+    color:#666666!important;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 9%
+}
+
+.row.icons-service>.col-lg-2{
+    text-align: center
+}
+
+.title-icons{
+    color:#007593;
+    font-weight: 600;
+}
+
+.sometext{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.effect{
+    border: 5px solid #007593;
+    border-radius: 50%;
+    padding: 5px;
+    -webkit-transition: border .3s ease-in-out,padding .0s ease-in-out;
+        -moz-transition: border .3s ease-in-out,padding .0s ease-in-out;
+        transition: border .3s ease-in-out,padding .0s ease-in-out;
+}
+
+.icons-service-2{
+    margin-top: 5%;
+    text-align: center
+}
+
+.iconp{
+    width: 200px
+}
+
+.row.icons-service>.col-lg-2>p>img, .row.icons-service-2>.col-lg-2>p>img{
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
+
+}
+
+.row.icons-service>.col-lg-2>p>img:hover, .row.icons-service-2>.col-lg-2>p>img:hover{
+    cursor: pointer;
+}
+
+.service-2-section {
+    height: auto;
+    padding: 150px 0;
+    text-align: center;
+    background-image: url(../img/values.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title-business{
+    color:#FFF;
+    font-weight: 600;
+    font-size: 1.5em;
+    opacity: 0.83;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.6);
+}
+
+.description-business{
+    opacity: 0.83;
+}
+
+/*      NOVEDADES       */
+
+.news-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: left;
+    background: #ffffff;
+    background-attachment: fixed;
+}
+
+.carousel-inner{
+    width:100%;
+    height: 500px
+}
+
+.left.carousel-control, .right.carousel-control{
+    font-size: 6em;
+    top:50%;
+    background: none;
+}
+
+.carousel-caption{
+    font-family: 'Raleway', sans-serif;
+    top:15%;
+}
+
+/*      CONTACTO       */
+
+#map_canvas{
+    width:100%;
+    height:500px;
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 600px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-image: url(../img/mac.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-form{
+    text-align: center
+}
+
+.line {
+  display: block;
+  border: none;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,.85);
+  padding: 5px 2px 0 2px;
+  margin-top: 1%
+}
+
+.line:focus { 
+  outline: none!important;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(255,255,255,.85);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255,255,255,.85);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255,255,255,.85);  
+}
+
+:-ms-input-placeholder {  
+   color: rgba(255,255,255,.85);  
+}
+
+.special::-webkit-input-placeholder {
+   color: #f8bf3d!important;
+}
+
+.special:-moz-placeholder { /* Firefox 18- */
+   color: #f8bf3d!important;  
+}
+
+.special::-moz-placeholder {  /* Firefox 19+ */
+   color:#f8bf3d!important;  
+}
+
+.special:-ms-input-placeholder {  
+   color: #f8bf3d!important;  
+}
+
+.required{
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+    color:#a03f3f;
+}
+
+.line.special{
+    border-bottom: 1px solid rgba(248,191,61,.85);
+    color:#f8bf3d;
+}
+
+textarea{
+    resize:vertical;
+}
+
+label{
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+input[type=submit]{
+  display: block;
+  border: none;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  width: 50%;
+  left: 25%;
+  margin-top:5%;
+  padding: 8px 0;
+  position: relative;
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,.85);
+  border-top: 1px solid rgba(255,255,255,.85);
+}
+
+#info-contact{
+    text-align: left;
+    left:25%;
+    position: relative;
+    padding-top: 5%
+}
+
+#info-contact h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  color:#FFF;
+}
+
+#info-contact p, a{
+    color:#FFF;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px
+}
+
+#info-contact a:hover{
+    text-decoration: underline;
+    color:#FFF;
+}
+
+/*      FOOTER       */
+
+.footer{
+    background-color: #FFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer p{
+    color:#b1b1b1;
+    font-weight: 400;
+}
+
+.footer a{
+    color:#b1b1b1;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-shadow:1px 1px 0 rgba(255,255,255,.85);
+}
+
+.footer a:hover{
+    text-decoration: none;
+    border-bottom: 1px dashed #b1b1b1;
+    padding-bottom: 1px;
+    transition: ease-out;
+}
+
+

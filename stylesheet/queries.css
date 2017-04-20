@@ -1,0 +1,32 @@
+/***************		Media Queries		******************/
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+ @media only screen and (max-width : 767px) {
+ 	#logotype{
+ 		margin-top:-70px;
+ 	}
+
+ 	button[type=button].navbar-toggle{
+ 		background-color: #FFF;
+ 	}
+
+ 	 .navbar-collapse.navbar-ex1-collapse.collapse.in{
+ 	 	border:none!important;
+ 	 	background-color: rgba(255,255,255,0.5);
+ 	 	width:100px;
+ 	 	float: right;
+ 	 	text-align: center
+ 	 }
+}
